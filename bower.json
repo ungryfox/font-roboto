@@ -1,0 +1,9 @@
+{
+  "name": "font-roboto",
+  "description": "The sans-serif typeface family developed by Google.",
+  "license": "MIT",
+  "homepage": "https://github.com/ungryfox/font-roboto",
+  "ignore": [
+    "**/.*"
+  ]
+}
