@@ -1,6 +1,7 @@
 {
   "name": "font-roboto",
   "description": "The sans-serif typeface family developed by Google.",
+  "main": "dist/styles/roboto.css",
   "license": "MIT",
   "homepage": "https://github.com/ungryfox/font-roboto",
   "ignore": [
