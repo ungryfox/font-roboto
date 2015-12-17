@@ -1,5 +1,21 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    'local-googlefont': {
+      roboto: {
+        options: {
+          family: 'Roboto',
+          sizes: [
+            400,
+            300,
+            500,
+            700,
+            '400italic'
+          ],
+          cssDestination: 'src/styles',
+          fontDestination: 'dist/fonts'
+        }
+      }
+    },
     sass: {
       dist: {
         files: [{
@@ -26,6 +42,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-local-googlefont');
 
   grunt.registerTask('dist', [
     'sass:dist',
